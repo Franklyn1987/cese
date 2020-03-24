@@ -1,0 +1,5 @@
+patch:
+  # 引用 `symbols.custom` 文件里面的符号
+  'punctuator/import_preset': alternative
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"
+  "switches/@0/reset": 1

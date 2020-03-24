@@ -1,0 +1,58 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Mar 24 22:12:35 2020"
+  rime_version: 1.5.3
+patch:
+  schema_list:
+    - {schema: luna_pinyin_simp}
+    - {schema: luna_pinyin}
+    - {schema: luna_pinyin_fluency}
+    - {schema: bopomofo}
+    - {schema: bopomofo_tw}
+    - {schema: cangjie5}
+    - {schema: stroke}
+    - {schema: terra_pinyin}
+    - {schema: bopomofo_express}
+    - {schema: cangjie5_express}
+    - {schema: luna_pinyin_tw}
+    - {schema: luna_quanpin}
+  menu:
+    page_size: 6
+
+  # punctuator/full_shape:
+  #   "=" : ["=","=="]
+  # punctuator/half_shape:
+  #   "=" : ["=","=="]
+  # punctuator/full_shape:
+  #   "/" : ["、","/","÷"]
+  # punctuator/half_shape:
+  #   "/" : ["、","/","÷"]
+  'punctuator/import_preset': alternative
+  # punctuator/full_shape:
+  #   "/" : ["、","/","÷"]
+  # punctuator/half_shape:
+  #   "/" : ["、","/","÷"]
+  # punctuator/full_shape:
+  #   "/" : ["、","/","÷"]
+  # punctuator/half_shape:
+  #   "/" : ["、","/","÷"]
+  # punctuator/import_preset: symbols.custom.yaml
+  # punctuator:
+  #   import_preset: default
+
+  # switches:
+  #   -name: ascii_mode
+  #    reset: 1
+  #   states: ["中文", "西文"]
+  # - name: full_shape
+  #   states: ["半角", "全角"]
+  # - name: extended_charset
+  #   states: ["通用", "增廣"]
+  # - name: simplification
+  #   states: ["漢字", "汉字"]
+  # - name: ascii_punct
+  #   states: ["句讀", "符號"]
+
+    

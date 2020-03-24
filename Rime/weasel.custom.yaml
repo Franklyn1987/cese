@@ -1,0 +1,3 @@
+patch:
+  "style/font_face": "Noto Sans S Chinese Medium"  # 字體名稱，從記事本等處的系統字體對話框裏能看到 Microsoft YaHei Mono
+  "style/font_point": 14     # 字號，只認數字的，不認「五號」、「小五」這樣的
